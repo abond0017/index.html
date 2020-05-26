@@ -1,0 +1,397 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background: #aef3f3;
+    border: 1px solid grey;
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    min-height: 150px;
+    background-color: #00c2cb;
+    text-align: center;
+   
+}
+
+.header {
+    background-color: #00c2cb;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    height: 15%;
+    min-height: 150px;
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+
+    
+}
+
+nav {
+    /* border-bottom: 1px solid black; */
+    padding-left: 5%;
+
+}
+
+nav button {
+    background: #00c2cb;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #00c2cb;
+    
+}
+nav button a {
+    color: black;
+    font-family: "Verdana";
+    font-size: 16px;
+
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    padding-left: 5%;
+  }
+  
+header h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+    padding-right: 10%;
+    font-family: "Trebuchet MS";
+  }
+
+#form-container {
+    display: block;
+    font-family: "Lucida", sans-serif;
+    margin: 0 auto;
+    width: 450px;
+    height: 500px;
+
+}
+
+#field-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 400px;
+   
+  }
+    
+
+#form-box-1 {
+    
+    font-family: "Trebuchet MS";
+    width: 100%;
+    border: 4px solid #00c2cb;
+    border-radius: 4px;
+    margin: 30px auto;
+    background: white;
+    
+  }
+
+  #form-box-2 {
+    font-family: "Trebuchet MS";
+    width: 100%;
+    border-top: 4px solid #00c2cb;
+    border-bottom: 4px solid #00c2cb;
+    border-right: 4px solid #00c2cb;
+    border-radius: 4px;
+    margin: 30px auto;
+    background: white;
+    
+  }
+  #form-box-1 label {
+    font-size: 16px;
+
+}
+
+  #form-box-2 label {
+      font-size: 16px;
+  
+  }
+h3 {
+    margin: 20px;
+  }
+
+  h4 {
+      padding: none;
+  }
+input {
+    margin: 10px;
+}
+
+#submit-button input {
+    margin: 0 auto;
+    display: flex;
+    width: 103px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #00c2cb;
+    background: #00c2cb;
+    font-family: "Verdana";
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Style the header with a grey background and some padding
+.header {
+    overflow: hidden;
+    background-color: #00c2cb;
+    padding: 20px 10px;
+  }
+  
+  Style the header links
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold; */
+  /* } */
+  
+  /* Change the background color on mouse-over */
+  nav a:hover {
+    background-color: #ccffff;
+    color:black;
+    border-radius: 5px;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+  /* @media screen and (max-width: 500px) { */
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+      
+    }
+    /* .header-right {
+      float: none;
+    } */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* #main-body {
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+  } */
+
+  #description {
+      text-align: center;
+      font-family: "Verdana";
+      max-height: 100px;
+      min-height: 115px;
+      padding-left: 5px;
+      padding-right: 15px;
+      /* border-bottom: 1px solid black; */
+      background: white;
+      padding-top: 10px;
+      
+      
+      
+
+  }
+  
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    height: 15px;
+    width: 100vw;
+    background-color: #00c2cb;
+    border-top: 2px solid grey;
+  }
+
+  
+  /* #pagetitle {
+    font-size: 35px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    margin-top: 25px; 
+    padding-left: 20px;
+    margin-right: auto;
+    padding-right: 25%;
+  
+  } */
+
+  /* #all-fields {
+    width: 75%;
+    display: flex;
+    position: relative;
+  
+  } */
+  
+  /* #buttons {
+    width: 200px; */
+    /* height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  
+  }
+  
+  #search-field {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    display: flex;
+  
+  }
+  
+  #brett-field {
+    width: 65%;
+    height: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    position: relative;
+  
+  }
+  
+  #brett-field input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+  
+  }
+   */
+  /* #main-body img {
+    width: 20%;
+  
+  }
+  
+  #search-input {
+    position: absolute;
+    width: 80%;
+  }
+  
+  #search-input input {
+    position: absolute;
+    width: 65%;
+    border-radius: 10px;
+    border: 1px solid black;
+  
+  }
+  
+  #search-input img {
+    width: 15px;
+    position: absolute;
+    padding: 5px;
+  
+  }
+  
+  #allfields {
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 15px;
+  
+  }
+  
+  form {
+    font-size: 14px;
+    font-family: "Comic Sans MS";
+    margin: 25px auto;
+  
+  }
+  
+  #formboxes {
+    width: 100%;
+    display: flex;
+  
+  }
+  
+  form p {
+    font-size: 25px;
+  
+  }
+  
+  form label input {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 25px;
+    border: 1px solid black;
+  }
+  
+  #checkboxarea {
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+  }
+    
+  #check-boxes {
+    font-family: "Comic Sans MS";
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  #check-box label {
+   display: flex;
+   margin-left: 5px;
+   width: 350px;
+  } */ 
+/*   
+  button {
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+    background: white;
+    margin: 20px auto;
+    display: flex;
+    font-family: "Comic Sans MS";
+  
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100vw;
+    background-color: #c1c1c1;
+    border-top: 1px solid black;
+  }  */
